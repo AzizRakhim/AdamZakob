@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Red Hat Display';
-    src: url('/fonts/RedHatDisplay-Regular.woff2') format('woff2'),
-        url('/fonts/RedHatDisplay-Regular.woff') format('woff');
+    src: url('./fonts/RedHatDisplay-Regular.woff2') format('woff2'),
+        url('./fonts/RedHatDisplay-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -9,8 +9,8 @@
 
 @font-face {
     font-family: 'Red Hat Display';
-    src: url('/fonts/RedHatDisplay-Bold.woff2') format('woff2'),
-        url('/fonts/RedHatDisplay-Bold.woff') format('woff');
+    src: url('./fonts/RedHatDisplay-Bold.woff2') format('woff2'),
+        url('./fonts/RedHatDisplay-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -18,8 +18,8 @@
 
 @font-face {
     font-family: 'Red Hat Display';
-    src: url('/fonts/RedHatDisplay-Medium.woff2') format('woff2'),
-        url('/fonts/RedHatDisplay-Medium.woff') format('woff');
+    src: url('./fonts/RedHatDisplay-Medium.woff2') format('woff2'),
+        url('./fonts/RedHatDisplay-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
@@ -85,12 +85,13 @@ body{
     color: #25202F;
 }
 
-.header-border{
+.header-btn{
     width: 70px;
     height: 70px;
-    border: 2px solid white;
-    background-color: #fff;
+    background-color: #FFFFFF;
     border-radius: 50%;
+    border: none;
+    padding: 28px 24px;
 }
 
 .main{
@@ -105,7 +106,7 @@ body{
 }
 
 .hello-section-left{
-
+    margin-right: 141px;
 }
 
 .left-hello{
@@ -115,6 +116,7 @@ body{
     line-height: 120%;
     color: #666666;
     width: 358px;
+
 }
 
 .left-name{
@@ -123,7 +125,7 @@ body{
     font-size: 60px;
     line-height: 120%;
     color: #25202F;
-    width: 358px;
+    width: 400px;
     margin-bottom: 20px;
 }
 
@@ -133,7 +135,7 @@ body{
     font-size: 24px;
     line-height: 32px;
     color: #25202F;
-    width: 255px;
+    width: 300px;
     margin-bottom: 50px;
 }
 
@@ -306,7 +308,7 @@ body{
     font-size: 36px;
     line-height: 48px;
     color: #25202F;
-    width: 140px;
+    width: 200px;
     margin-bottom: 44px;
 }
 
@@ -509,10 +511,17 @@ body{
     align-items: center;
 }
 
+.ceo-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .img-ceo{
     width: 98px;
     height: 98px;
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .michael-list-item{
@@ -531,6 +540,7 @@ body{
     line-height: 21px;
     color: #000000;
     margin-bottom: 46px;
+    text-align: center;
 }
 
 .dots{
