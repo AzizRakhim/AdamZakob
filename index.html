@@ -13,7 +13,7 @@
     <header class="header">
         <div class="container">
             <div class="header-div">
-                <div class="header-left-div">
+                <div class="header-left-part">
                     <a href="/">
                         <img class="header-logo" src="./images/logo.svg" alt="site logo" width="40" height="40">
                     </a>
@@ -45,31 +45,29 @@
                 <button class="header-btn">
                     <img class="btn-img" src="images/menu.svg" alt="menu" width="23" height="15">
                 </button>
-
             </div>
         </div>
-
-
     </header>
+
     <main class="main">
         <section id="hero">
             <div class="container">
-                <div class="hello-section">
-                    <div class="hello-section-left">
-                        <span class="left-hello">
+                <div class="hero-section">
+                    <div class="hero-section-left">
+                        <span class="hero-hello">
                             Hello,
                         </span>
-                        <h1 class="left-name">
+                        <h1 class="hero-name">
                             Adam Zakob
                         </h1>
-                        <p class="left-job">
+                        <p class="hero-job">
                             a freelance UX Designer
                         </p>
-                        <a class="talking-link" href="/">
+                        <a class="hero-link" href="/">
                             Let’s Talk
                         </a>
                     </div>
-                    <img class="hero-img" src="./images/owner.png" alt="the creator of site" width="535" height="622">
+                    <img class="hero-img" src="./images/owner.png" alt="the creator of the site" width="535" height="622">
                 </div>
             </div>
         </section>
@@ -77,17 +75,17 @@
         <section id="services">
             <div class="container">
                 <div class="services-section">
-                    <span class="services">
+                    <span class="intro">
                         Services
                     </span>
-                    <hr class="services-line">
-                    <h2 class="services-section-title">
+                    <hr class="intro-line">
+                    <h2 class="intro-section-title">
                         What actually
                         I love to do
                     </h2>
                     <ul class="services-list">
                         <li>
-                            <div class="services-div">
+                            <div class="services-list-item">
                                 <img class="services-img" src="./images/phone.svg" alt="phone" width="62" height="61">
                                 <h3 class="services-list-title">
                                     UX Research
@@ -99,7 +97,7 @@
                             </p>
                         </li>
                         <li>
-                            <div class="services-div second">
+                            <div class="services-list-item second">
                                 <img class="services-img" src="./images/wifi.svg" alt="wifi" width="62" height="61">
                                 <h3 class="services-list-title">
                                     Brand Design
@@ -111,7 +109,7 @@
                             </p>
                         </li>
                         <li>
-                            <div class="services-div third">
+                            <div class="services-list-item third">
                                 <img class="services-img" src="./images/calendar.svg" alt="calendar" width="62" height="61">
                                 <h3 class="services-list-title">
                                     Web Development
@@ -130,18 +128,18 @@
         <section id="portfolio">
             <div class="container">
                 <div class="portfolio-section">
-                    <span class="portfolio">
+                    <span class="intro">
                         Portfolio
                     </span>
-                    <hr class="services-line">
-                    <div class="portfolio-div-one">
-                        <h2 class="portfolio-section-title">
+                    <hr class="intro-line">
+                    <div class="portfolio-div-title">
+                        <h2 class="intro-section-title portfolio-title">
                             All Creative
                             Projects
                         </h2>
                         <a class="portfolio-link" href="/">
                             Explore More
-                            <img class="portfolio-img" src="./images/arrow-right.svg" alt="arrow-right" width="24" height="24">
+                            <img class="portfolio-img-arrow" src="./images/arrow-right.svg" alt="arrow-right" width="24" height="24">
                         </a>
                     </div>
                     <div class="portfolio-img-div">
@@ -155,78 +153,68 @@
         <section id="clients">
             <div class="container">
                 <div class="clients-section">
-                    <span class="clients">
+                    <span class="intro">
                         Clients
                     </span>
-                    <hr class="services-line">
-                    <h2 class="clients-section-title">
+                    <hr class="intro-line">
+                    <h2 class="intro-section-title clients-title">
                         Big Deal
                         With
                     </h2>
                     <ul class="clients-list">
                         <li class="clients-list-item">
-                            <a class="list-item-link" href="/">
-                                <div class="link-div">
-                                    <img class="list-item-img" src="./images/slack.svg" alt="slack logo" width="50" height="50">
-                                </div>
-                                <div>
-                                    <p class="slack">
-                                        Slack
-                                    </p>
-                                </div>
-                            </a>
+                            <div class="clients-div">
+                                <img class="list-item-img" src="./images/slack.svg" alt="slack logo" width="50" height="50">
+                            </div>
+                            <div>
+                                <p class="clients-deal">
+                                    Slack
+                                </p>
+                            </div>
                         </li>
                         <li class="clients-list-item list-medium">
-                            <a class="list-item-link" href="/">
-                                <div class="medium-link">
-                                    <img class="list-item-img" src="./images/medium.svg" alt="medium-logo" width="69"
-                                        height="50">
-                                </div>
-                                <div>
-                                    <p class="medium">
-                                        Medium
-                                    </p>
-                                </div>
-                            </a>
+                            <div class="medium-div">
+                                <img class="list-item-img" src="./images/medium.svg" alt="medium-logo" width="69"
+                                    height="50">
+                            </div>
+                            <div>
+                                <p class="clients-deal medium">
+                                    Medium
+                                </p>
+                            </div>
                         </li>
                         <li class="clients-list-item list-microsoft">
-                            <a class="list-item-link" href="/">
-                                <div class="microsoft-link">
-                                    <img class="list-item-img" src="./images/microsoft-logo-photos.svg" alt="microsoft-logo"
-                                        width="50" height="50">
-                                </div>
-                                <div>
-                                    <p class="microsoft">
-                                        Microsoft
-                                    </p>
-                                </div>
-                            </a>
+                            <div class="clients-div">
+                                <img class="list-item-img" src="./images/microsoft-logo-photos.svg" alt="microsoft-logo"
+                                    width="50" height="50">
+                            </div>
+                            <div>
+                                <p class="clients-deal microsoft">
+                                    Microsoft
+                                </p>
+                            </div>                         
                         </li>
                         <li class="clients-list-item list-zeplin">
-                            <a class="list-item-link" href="/">
-                                <div class="zeplin-link">
-                                    <img class="list-item-img" src="./images/zeplin.svg" alt="zeplin-logo" width="50"
-                                        height="50">
-                                </div>
-                                <div>
-                                    <p class="zeplin">
-                                        Zeplin
-                                    </p>
-                                </div>
-                            </a>
+                            <div class="clients-div">
+                                <img class="list-item-img" src="./images/zeplin.svg" alt="zeplin-logo" width="50"
+                                    height="50">
+                            </div>
+                            <div>
+                                <p class="clients-deal zeplin">
+                                    Zeplin
+                                </p>
+                            </div>                     
                         </li>
                         <li class="clients-list-item list-shopify">
-                            <a class="list-item-link" href="/">
-                                <div class="shopify-link">
-                                    <img class="list-item-img" src="./images/shopify.svg" alt="shopify-logo" width="44"
-                                        height="50">
-                                </div>
-                                <div>
-                                    <p class="shopify">
-                                        Shopify
-                                    </p>
-                                </div>
-                            </a>
+                            <div class="shopify-div">
+                                <img class="list-item-img" src="./images/shopify.svg" alt="shopify-logo" width="44"
+                                    height="50">
+                            </div>
+                            <div>
+                                <p class="clients-deal shopify">
+                                    Shopify
+                                </p>
+                            </div>        
                         </li>
                     </ul>
                 </div>
@@ -236,11 +224,11 @@
         <section id="testimonials">
             <div class="container">
                 <div class="testimonials-section">
-                    <span class="testimonials">
+                    <span class="intro">
                         Testimonials
                     </span>
-                    <hr class="testimonials-line">
-                    <h2 class="testimonials-title">
+                    <hr class="intro-line">
+                    <h2 class="intro-section-title">
                         What People
                         Says
                     </h2>
@@ -280,23 +268,23 @@
                         </li>
                     </ul>
                     <div class="dots">
-                        <span>
-                            <img src="./images/Ellipse-two.svg" alt="circle-whole" width="10" height="10">
+                        <span class="dot active-dot">
+                            
                         </span>
-                        <span>
-                            <img src="./images/Ellipse-one.svg" alt="circle-hole" width="10" height="10">
+                        <span class="dot">
+                            
                         </span>
-                        <span>
-                            <img src="./images/Ellipse-one.svg" alt="circle-hole" width="10" height="10">
+                        <span class="dot">
+                            
                         </span>
-                        <span>
-                            <img src="./images/Ellipse-one.svg" alt="circle-hole" width="10" height="10">
+                        <span class="dot">
+                            
                         </span>
-                        <span>
-                            <img src="./images/Ellipse-one.svg" alt="circle-hole" width="10" height="10">
+                        <span class="dot">
+                            
                         </span>
-                        <span>
-                            <img src="./images/Ellipse-one.svg" alt="circle-hole" width="10" height="10">
+                        <span class="dot">
+                            
                         </span>
                     </div>
                 </div>
@@ -307,11 +295,11 @@
             <div class="container">
                 <div class="blog-section">
                     <div>
-                        <span class="blog">
+                        <span class="intro">
                             Blog
                         </span>
-                        <hr class="blog-line">
-                        <h2 class="blog-title">
+                        <hr class="intro-line">
+                        <h2 class="intro-section-title">
                             Get News
                             Feeds
                         </h2>
@@ -353,10 +341,10 @@
         <section id="contact">
             <div class="container">
                 <div class="contact-section">
-                    <span class="contact">
+                    <span class="intro contact-span">
                         Contact Me
                     </span>
-                    <hr class="contact-line">
+                    <hr class="intro-line">
                     <div class="contact-main-div">
                         <h2 class="contact-text">
                             Let me know if you want to talk

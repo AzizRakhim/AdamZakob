@@ -35,10 +35,6 @@ body{
     font-family: "Red Hat Display", "Arial", sans-serif;
 }
 
-.header{
-
-}
-
 .container{
     width: 1110px;
     margin-right: auto;
@@ -49,11 +45,11 @@ body{
     display: flex;
     justify-content: space-between;
     margin-top: 65px;
-    align-items: center;
+    align-items: center;    
 }
 
 
-.header-left-div{
+.header-left-part{
     display: flex;
     width: 478px;
     justify-content: space-between;
@@ -66,10 +62,6 @@ body{
     margin-right: 100px;
 }
 
-.header-navigation{
-    
-}
-
 .header-list{
     list-style-type: none;
     display: flex;
@@ -79,7 +71,6 @@ body{
 
 .header-list-item{
     text-decoration: none;
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 26px;
@@ -97,26 +88,21 @@ body{
     border-radius: 50%;
     border: none;
     padding: 28px 24px;
-    box-shadow: 0 0 10px 5px #e9e3e3;
+    box-shadow: 0px 20px 50px rgba(198, 185, 233, 0.3);
 }
 
-.main{
-
-}
-
-.hello-section{
+.hero-section{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 85px;
+    margin-bottom: 100px;
 }
 
-.hello-section-left{
+.hero-section-left{
     margin-right: 141px;
 }
 
-.left-hello{
-    font-style: normal;
+.hero-hello{
     font-weight: 500;
     font-size: 24px;
     line-height: 120%;
@@ -125,8 +111,7 @@ body{
 
 }
 
-.left-name{
-    font-style: normal;
+.hero-name{
     font-weight: bold;
     font-size: 60px;
     line-height: 120%;
@@ -135,8 +120,7 @@ body{
     margin-bottom: 20px;
 }
 
-.left-job{
-    font-style: normal;
+.hero-job{
     font-weight: normal;
     font-size: 24px;
     line-height: 32px;
@@ -145,8 +129,7 @@ body{
     margin-bottom: 50px;
 }
 
-.talking-link{
-    font-style: normal;
+.hero-link{
     font-weight: 500;
     font-size: 24px;
     line-height: 32px;
@@ -160,6 +143,8 @@ body{
 }
 
 .hero-img{
+    width: 535px;
+    height: 622px;
     margin-top: -70px;
 }
 
@@ -167,8 +152,7 @@ body{
     margin-bottom: 150px;
 }
 
-.services{
-    font-style: normal;
+.intro{
     font-weight: normal;
     font-size: 18px;
     line-height: 24px;
@@ -178,14 +162,15 @@ body{
     margin-bottom: 10px;
 }
 
-.services-line{
+.intro-line{
     background: #8643DC;
     width: 50px;
+    border: none;
+    height: 2px;
     margin-bottom: 15px;
 }
 
-.services-section-title{
-    font-style: normal;
+.intro-section-title{
     font-weight: bold;
     font-size: 36px;
     line-height: 48px;
@@ -200,7 +185,7 @@ body{
     justify-content: space-between;
 }
 
-.services-div{
+.services-list-item{
     display: flex;
     align-items: center;
     width: 221px;
@@ -208,14 +193,12 @@ body{
     margin-bottom: 21px;
 }
 
-
 .services-img{
     width: 62px;
-    height: 60.59px;
+    height: 61px;
 }
 
 .services-list-title{
-    font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 32px;
@@ -224,7 +207,6 @@ body{
 
 .services-list-text{
     width: 350px;
-    font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 32px;
@@ -243,35 +225,19 @@ body{
     margin-bottom: 168px;
 }
 
-.portfolio{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 24px;
-    width: 70px;
-    color: #8643DC;
-    display: block;
-    margin-bottom: 10px;
-}
-
-.portfolio-section-title{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 48px;
-    color: #25202F;
-    width: 204px;
-}
-
-.portfolio-div-one{
+.portfolio-div-title{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 30px;
 }
 
+.portfolio-title{
+    width: 204px;
+    margin-bottom: 30px;
+}
+
 .portfolio-link{
-    font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 32px;
@@ -283,7 +249,7 @@ body{
     justify-content: space-between;
 }
 
-.portfolio-img{
+.portfolio-img-arrow{
     width: 24px;
     height: 24px;
 }
@@ -301,24 +267,8 @@ body{
     margin-bottom: 150px;
 }
 
-.clients{
-    width: 55px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 24px;
-    color: #8643DC;
-    display: block;
-    margin-bottom: 10px;
-}
-
-.clients-section-title{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 48px;
-    color: #25202F;
-    width: 200px;
+.clients-title{
+    width: 150px;
     margin-bottom: 44px;
 }
 
@@ -336,11 +286,7 @@ body{
     border-radius: 10px;
 }
 
-.list-item-link{
-    text-decoration: none;
-}
-
-.link-div{
+.clients-div{
     width: 50px;
     margin-right: auto;
     margin-left: auto;
@@ -351,11 +297,10 @@ body{
     margin-bottom: 30px;
 }
 
-.slack{
+.clients-deal{
     width: 44px;
     margin-right: auto;
     margin-left: auto;
-    font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 24px;
@@ -365,10 +310,9 @@ body{
 .list-medium{
     background: #EDFFF5;
     border: 1px solid #CAFFE1;
-    border-radius: 10px;
 }
 
-.medium-link{
+.medium-div{
     width: 69px;
     margin-right: auto;
     margin-left: auto;
@@ -377,70 +321,32 @@ body{
 
 .medium{
     width: 67px;
-    margin-right: auto;
-    margin-left: auto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
-    color: #000000;
 }
 
 .list-microsoft{
     background: #EDFFF5;
     border: 1px solid #CAFFE1;
-    border-radius: 10px;
-}
-
-.microsoft-link{
-    width: 50px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 33px;
 }
 
 .microsoft{
     width: 79px;
-    margin-right: auto;
-    margin-left: auto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
-    color: #000000;
 }
 
 .list-zeplin{
     background: #FFFBF2;
     border: 1px solid #FFEEC9;
-    border-radius: 10px;
-}
-
-.zeplin-link{
-    width: 50px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 33px;
 }
 
 .zeplin{
     width: 50px;
-    margin-right: auto;
-    margin-left: auto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
-    color: #000000;
 }
 
 .list-shopify{
     background: #F4FFED;
     border: 1px solid #DBFFC4;
-    border-radius: 10px;
 }
 
-.shopify-link{
+.shopify-div{
     width: 44px;
     margin-right: auto;
     margin-left: auto;
@@ -449,45 +355,10 @@ body{
 
 .shopify{
     width: 64px;
-    margin-right: auto;
-    margin-left: auto;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 18px;
-    line-height: 24px;
-    text-align: center;
-    color: #000000;
 }
 
 .testimonials-section{
     margin-bottom: 167px;
-}
-
-.testimonials{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 24px;
-    color: #8643DC;
-    margin-bottom: 10px;
-    display: block;
-}
-
-.testimonials-line{
-    width: 50px;
-    height: 2px;
-    background: #8643DC;
-    margin-bottom: 15px;
-}
-
-.testimonials-title{
-    width: 217px;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 48px;
-    color: #25202F;
-    margin-bottom: 25px;
 }
 
 .img-div-testimonial{
@@ -505,7 +376,6 @@ body{
     margin-right: auto;
     margin-left: auto;
     text-align: center;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 32px;
@@ -531,11 +401,9 @@ body{
     width: 98px;
     height: 98px;
     margin-bottom: 30px;
-    text-align: center;
 }
 
 .michael-list-item{
-    font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 26px;
@@ -544,7 +412,6 @@ body{
 }
 
 .ceo-job{
-    font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 21px;
@@ -554,39 +421,29 @@ body{
 }
 
 .dots{
+    width: 160px;
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.dot{
+    width: 10px;
+    height: 10px;
+    border: 1px solid #DEBAD9;
+    border-radius: 50%;
+}
+
+.active-dot{
+    border: #8643DC;
+    background: #8643DC;
 }
 
 .blog-section{
     margin-bottom: 150px;
     display: flex;
-}
-
-.blog{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 24px;
-    color: #8643DC;
-    margin-bottom: 10px;
-    display: block;
-}
-
-.blog-line{
-    width: 50px;
-    height: 2px;
-    background: #8643DC;
-    margin-bottom: 15px;
-}
-
-.blog-title{
-    width: 165px;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 36px;
-    line-height: 48px;
-    color: #25202F;
-    margin-right: 25px;
 }
 
 .blog-list{
@@ -596,19 +453,18 @@ body{
     justify-content: space-between;
 }
 
+.blog-link{
+    text-decoration: none;
+}
+
 .blog-img-one{
     width: 350px;
     height: 233px;
     margin-bottom: 20px;
 }
 
-.blog-link{
-    text-decoration: none;
-}
-
 .time{
     display: block;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 21px;
@@ -618,7 +474,6 @@ body{
 
 .blog-small-title-one{
     width: 350px;
-    font-style: normal;
     font-weight: bold;
     font-size: 20px;
     line-height: 26px;
@@ -634,7 +489,6 @@ body{
 
 .blog-small-title-two{
     width: 255px;
-    font-style: normal;
     font-weight: bold;
     font-size: 20px;
     line-height: 26px;
@@ -651,7 +505,6 @@ body{
 
 .blog-small-title-three{
     width: 255px;
-    font-style: normal;
     font-weight: bold;
     font-size: 20px;
     line-height: 26px;
@@ -660,19 +513,12 @@ body{
 }
 
 .contact-section{
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
-.contact{
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 24px;
-    color: #8643DC;
-    margin-bottom: 10px;
-    display: block;
+.contact-span{
+    width: 94px;
 }
-
 .contact-line{
     width: 50px;
     height: 2px;    
@@ -688,7 +534,6 @@ body{
 
 .contact-text{
     width: 512px;
-    font-style: normal;
     font-weight: 500;
     font-size: 36px;
     line-height: 52px;
@@ -696,12 +541,9 @@ body{
 }
 
 .email{
-    font-style: normal;
     font-weight: normal;
     font-size: 24px;
     line-height: 28px;
-    text-decoration-line: underline;
-    text-transform: lowercase;
     color: #8643DC;
 }
 
@@ -720,17 +562,12 @@ body{
     outline: none;
 }
 
-.last{
-    margin-bottom: 30px;
-}
-
 .form-last-div{
     display: flex;
     justify-content: space-between;
 }
 
 .form-link-div{
-    font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 24px;
@@ -749,7 +586,6 @@ body{
 }
 
 .footer-title{
-    font-style: normal;
     font-weight: 500;
     font-size: 36px;
     line-height: 48px;
